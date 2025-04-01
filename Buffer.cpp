@@ -52,9 +52,9 @@ public:
 };
 
 int main() {
-    Buffer a(10);
+    Buffer a(8);
     Buffer b = a; 
-    Buffer c(5);
+    Buffer c(3);
     c = a;        
     Buffer d = std::move(a); 
     c = std::move(b); 
