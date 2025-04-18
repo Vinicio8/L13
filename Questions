@@ -1,0 +1,10 @@
+A1.
+Move semantics allow efficient transfer of resources between objects, avoiding expensive copies. They work by stealing resources from source objects that are about to be destroyed or reassigned.
+
+A2.
+Performance-critical applications.
+Code that handles large data structures (vectors, strings, custom buffers).
+
+A3.
+Using a moved-from object in an unspecified state.
+Moving objects that don't properly implement move semantics.
